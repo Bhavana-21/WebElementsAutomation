@@ -3,7 +3,11 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="PageTests.HomePage"/>
+    	<class name="PageTests.TextBoxes"/>
+       <class name="PageTests.HomePage"/>
+      <class name="PageTests.CheckBoxes"/>
+      <class name="PageTests.Tables"/>
+      <class name="PageTests.RadioBttns"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

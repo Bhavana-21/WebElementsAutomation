@@ -7,8 +7,9 @@ public class Elements {
 	
 	TestBase testBase = new TestBase();
 	HomePage homePage = new HomePage();
+	 
 	Elements(){
-		
+		testBase.launchApplication();
 		Assert.assertEquals(testBase.driver.getCurrentUrl(), testBase.prop.getProperty("url")+ "elements");
 	}
 

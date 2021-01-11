@@ -10,7 +10,7 @@ public class Elements_CheckBox {
 	TestBase testBase = new TestBase();
 	Elements elements = new Elements();
 	
-	Elements_CheckBox(){
+	public Elements_CheckBox(){
 		elements.navigateToCheckBoxes();
 		Assert.assertEquals(testBase.driver.getCurrentUrl(), testBase.prop.getProperty("url")+ "checkbox");
 	}
